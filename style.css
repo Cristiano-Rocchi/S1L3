@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
     text-align: center;
@@ -32,15 +32,16 @@ h1{
 }
 #sect2{
     text-align: left;
-    margin-left: 8em;
-    margin-right: 8em;
+    font-family: "Open Sans", sans-serif;
+    
 }
 #featured{
-display: inline;}
+    display: inline;}
 
 #featured p{
     border-left: solid;
     border-color: #fed97d;
+    padding-left: 1em;
 }
 #featured span{
     color: #af3908;
@@ -50,4 +51,18 @@ display: inline;}
 }
 h3 + hr{
     color: aqua;
+}
+main, footer{
+    margin-left: 25em;
+    margin-right: 25em;
+
+}
+#prep{
+    font-weight: 400;
+}
+footer{
+    text-align: left;
+}
+footer a{
+    color: #2b7e7e;
 }
